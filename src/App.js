@@ -5,13 +5,14 @@ import {
 } from "react-router-dom";
 import Home from "./Componetes/Home";
 import PaginaChat from "./Componetes/PaginaChat";
+import Sidebar from "./Componetes/Sidebar";
 
 function App() {
   return(
       <Router>
         <div className="App">
           <Routes>
-            <Route path='/chatpagina' element={<PaginaChat/>}/>
+            <Route path='/Sidebar' element={<Sidebar/>}/>
               <Route path='/' element={<Home/>}/>
           </Routes>
         </div>
